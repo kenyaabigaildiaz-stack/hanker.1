@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<title>Blog de embalaje industrial | Guías, comparativas y estrategias | Hanker México</title>
+<meta name="description" content="Blog de embalaje industrial: guías prácticas, comparativas de materiales y estrategias para optimizar logística y reducir costos. Hanker México.">
+<link rel="canonical" href="https://ehanker.com/blog">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" onload="this.rel='stylesheet'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"></noscript>
+<style>
+:root{--primary:#7a9200;--primary-dark:#5e7000;--primary-light:rgba(122,146,0,0.08);--bg:#f2f3f0;--bg2:#e8e9e5;--card:#ffffff;--text:#1c1f1a;--text2:#3a3f36;--text-muted:#6b7280;--border:#d4d6d0;}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:'Plus Jakarta Sans',sans-serif;background:var(--bg);color:var(--text2);line-height:1.5;overflow-x:hidden;padding-top:4.5rem;}
+header{position:fixed;top:0;left:0;width:100%;display:flex;justify-content:space-between;align-items:center;padding:1rem 5%;background:rgba(242,243,240,0.97);backdrop-filter:blur(10px);z-index:1000;border-bottom:1px solid var(--border);}
+.logo a{color:var(--primary);font-weight:800;font-size:1.5rem;letter-spacing:-0.5px;text-decoration:none;}
+nav{display:flex;align-items:center;gap:2rem;}
+.menu-item{position:relative;list-style:none;}
+.menu-item>a{color:var(--text-muted);text-decoration:none;font-weight:500;transition:color 0.2s;font-size:0.9rem;display:flex;align-items:center;gap:0.3rem;}
+.menu-item>a:hover{color:var(--primary);}
+.menu-item>a .arrow{font-size:0.7rem;transition:transform 0.2s;}
+.menu-item:hover>a .arrow{transform:rotate(180deg);}
+.submenu{position:absolute;top:100%;left:0;background:var(--card);border:1px solid var(--border);border-radius:0.8rem;padding:0.5rem 0;min-width:220px;opacity:0;visibility:hidden;transform:translateY(-10px);transition:all 0.2s ease;z-index:1000;box-shadow:0 8px 24px rgba(0,0,0,0.08);}
+.menu-item:hover .submenu{opacity:1;visibility:visible;transform:translateY(0);}
+.submenu a{display:block;padding:0.6rem 1.2rem;color:var(--text2);text-decoration:none;font-size:0.85rem;transition:all 0.2s;}
+.submenu a:hover{background:var(--primary-light);color:var(--primary);}
+header .cta{color:var(--primary)!important;font-weight:800;border-bottom:2px solid var(--primary);padding:0.2rem 0;text-decoration:none;font-size:0.9rem;}
+.menu-toggle{display:none;background:none;border:none;color:var(--text);font-size:1.5rem;cursor:pointer;}
+.blog-hero{background:var(--bg2);padding:3rem 5% 2rem;border-bottom:1px solid var(--border);}
+.blog-hero-inner{max-width:1200px;margin:0 auto;}
+.blog-hero h1{font-size:clamp(1.8rem,3.5vw,2.8rem);font-weight:800;color:var(--text);margin-bottom:0.5rem;}
+.blog-hero p{color:var(--text-muted);font-size:1rem;max-width:550px;margin-bottom:1rem;}
+.blog-hero a{color:var(--primary);font-weight:600;text-decoration:none;}
+.blog-wrap{max-width:1200px;margin:0 auto;padding:3rem 5%;}
+.blog-section-title{font-size:1.1rem;font-weight:700;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:1.5rem;padding-bottom:0.5rem;border-bottom:2px solid var(--border);}
+.blog-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1.5rem;margin-bottom:3rem;}
+.blog-card{background:var(--card);border:1px solid var(--border);border-radius:1rem;overflow:hidden;transition:all 0.2s;text-decoration:none;display:block;}
+.blog-card:hover{border-color:var(--primary);transform:translateY(-4px);box-shadow:0 8px 24px rgba(122,146,0,0.1);}
+.blog-card-cat{display:inline-block;font-size:0.72rem;font-weight:700;color:var(--primary);text-transform:uppercase;letter-spacing:0.08em;padding:0.8rem 1.2rem 0;}
+.blog-card-body{padding:0.6rem 1.2rem 1.5rem;}
+.blog-card h3{font-size:1rem;font-weight:700;color:var(--text);margin-bottom:0.5rem;line-height:1.4;}
+.blog-card p{font-size:0.85rem;color:var(--text-muted);line-height:1.5;margin-bottom:0.8rem;}
+.blog-card span{font-size:0.8rem;color:var(--primary);font-weight:700;}
+.footer{background:var(--text);padding:3rem 5% 2rem;border-top:1px solid rgba(255,255,255,0.08);margin-top:2rem;}
+.footer-content{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:2rem;max-width:1200px;margin:0 auto;}
+.footer-col h4{color:#f4f5f0;margin-bottom:1rem;font-size:1rem;font-weight:700;display:flex;justify-content:space-between;align-items:center;cursor:pointer;}
+.footer-col h4 .footer-toggle{display:none;font-size:0.8rem;}
+.footer-links{display:block;}
+.footer-col a{display:block;color:#9ca3af;text-decoration:none;margin-bottom:0.6rem;font-size:0.85rem;transition:color 0.2s;}
+.footer-col a:hover{color:#e8e9e5;}
+.footer-col p{color:#9ca3af;font-size:0.85rem;margin-bottom:0.5rem;line-height:1.6;}
+.footer-bottom{text-align:center;padding-top:2rem;margin-top:2rem;border-top:1px solid rgba(255,255,255,0.06);color:#6b7280;font-size:0.75rem;}
+.footer-bottom-links{display:flex;justify-content:center;gap:1.5rem;flex-wrap:wrap;margin-top:0.8rem;}
+.footer-bottom-links a{color:#6b7280;text-decoration:none;font-size:0.75rem;}
+.whatsapp-float{position:fixed;bottom:5rem;right:1.5rem;background:#25D366;color:#fff;padding:0.8rem 1.2rem;border-radius:3rem;text-decoration:none;font-weight:700;font-size:0.9rem;box-shadow:0 5px 20px rgba(0,0,0,0.2);z-index:999;display:flex;align-items:center;gap:0.5rem;}
+@media(max-width:768px){.menu-toggle{display:block;}nav{position:fixed;top:4rem;left:0;right:0;background:var(--card);flex-direction:column;align-items:stretch;gap:0;padding:1rem;border-bottom:1px solid var(--border);transform:translateY(-100%);opacity:0;visibility:hidden;transition:all 0.3s;z-index:999;}nav.active{transform:translateY(0);opacity:1;visibility:visible;}.menu-item{width:100%;}.menu-item>a{padding:0.8rem;justify-content:space-between;}.submenu{position:static;opacity:1;visibility:visible;transform:none;display:none;box-shadow:none;padding-left:1rem;background:transparent;}.menu-item.active .submenu{display:block;}.footer-content{grid-template-columns:1fr;gap:0.5rem;}.footer-col{border-bottom:1px solid rgba(255,255,255,0.06);padding-bottom:0.5rem;}.footer-col:last-child{border-bottom:none;}.footer-col h4 .footer-toggle{display:inline-block;}.footer-links{display:none;padding-bottom:0.8rem;}.footer-links.active{display:block;}}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo"><a href="/">HANKER</a></div>
+  <button class="menu-toggle" id="menuToggle">☰</button>
+  <nav id="mainNav">
+    <div class="menu-item"><a href="/">Inicio</a></div>
+    <div class="menu-item"><a href="#">Productos <span class="arrow">▼</span></a>
+      <div class="submenu"><a href="/burbuja-inflable">Burbuja inflable</a><a href="/almohadilla-inflable">Almohadilla inflable</a><a href="/maquina-burbuja-inflable">Máquina infladora</a><a href="/poliestrech">Poliestrech</a><a href="/fleje">Fleje industrial</a><a href="/cinta-adhesiva">Cinta adhesiva</a><a href="/carton">Cartón corrugado</a></div>
+    </div>
+    <div class="menu-item"><a href="#">Guías <span class="arrow">▼</span></a>
+      <div class="submenu"><a href="/guia-materiales-de-embalaje">Guía de materiales</a><a href="/como-reducir-costos-de-embalaje">Cómo reducir costos</a><a href="/burbuja-inflable-vs-poliburbuja">Burbuja vs poliburbuja</a><a href="/air-pillows-vs-foam">Air pillows vs foam</a></div>
+    </div>
+    <a href="https://wa.me/5215586629357?text=Quiero%20cotizar%20sistema%20inflable" class="cta">💬 Cotizar</a>
+  </nav>
+</header>
+
+<div class="blog-hero">
+  <div class="blog-hero-inner">
+    <h1>Blog de embalaje industrial</h1>
+    <p>Guías, comparativas y estrategias para optimizar tu logística y reducir costos de embalaje.</p>
+    <p>Si buscas automatizar tu operación, conoce nuestra <a href="/maquina-burbuja-inflable">máquina de burbuja inflable</a> y complementa con <a href="/burbuja-inflable">burbuja inflable para embalaje</a>.</p>
+  </div>
+</div>
+
+<div class="blog-wrap">
+  <div class="blog-section-title">Guías principales</div>
+  <div class="blog-grid">
+    <a href="/guia-materiales-de-embalaje" class="blog-card"><div class="blog-card-cat">Guía</div><div class="blog-card-body"><h3>Guía completa de materiales de embalaje industrial en México</h3><p>Todo lo que necesitas saber para elegir el material correcto según tu operación.</p><span>Leer guía →</span></div></a>
+    <a href="/como-reducir-costos-de-embalaje" class="blog-card"><div class="blog-card-cat">Guía</div><div class="blog-card-body"><h3>Cómo reducir costos de embalaje: 6 estrategias con impacto real</h3><p>Las 6 acciones que mayor impacto tienen en el costo real por pedido.</p><span>Leer guía →</span></div></a>
+    <a href="/burbuja-inflable-vs-poliburbuja" class="blog-card"><div class="blog-card-cat">Comparativa</div><div class="blog-card-body"><h3>Burbuja inflable vs poliburbuja: ¿cuál conviene para tu operación?</h3><p>Comparativa completa con tabla de 6 factores clave.</p><span>Leer comparativa →</span></div></a>
+  </div>
+
+  <div class="blog-section-title">Comparativas</div>
+  <div class="blog-grid">
+    <a href="/air-pillows-vs-foam" class="blog-card"><div class="blog-card-cat">Comparativa</div><div class="blog-card-body"><h3>Air pillows vs foam: ¿cuál protege mejor según tu producto?</h3><p>Cuándo usar cada uno y cómo combinarlos para máxima protección.</p><span>Leer →</span></div></a>
+    <a href="/air-pillows-vs-papel" class="blog-card"><div class="blog-card-cat">Comparativa</div><div class="blog-card-body"><h3>Air pillows vs papel kraft: ¿cuál es mejor para embalaje?</h3><p>Costo real, velocidad de empaque y protección comparados.</p><span>Leer →</span></div></a>
+    <a href="/blog/diferencia-burbuja-almohadilla" class="blog-card"><div class="blog-card-cat">Comparativa</div><div class="blog-card-body"><h3>Diferencia entre burbuja inflable y almohadilla inflable</h3><p>Cuál usar para envolver y cuál para rellenar.</p><span>Leer →</span></div></a>
+  </div>
+
+  <div class="blog-section-title">Artículos — Logística y ecommerce</div>
+  <div class="blog-grid">
+    <a href="/blog/como-reducir-costos-logisticos-ecommerce" class="blog-card"><div class="blog-card-cat">Logística</div><div class="blog-card-body"><h3>Cómo reducir costos logísticos en ecommerce</h3><p>Estrategias prácticas para disminuir gastos de envío sin comprometer protección.</p><span>Leer →</span></div></a>
+    <a href="/blog/como-reducir-devoluciones" class="blog-card"><div class="blog-card-cat">Ecommerce</div><div class="blog-card-body"><h3>Cómo reducir devoluciones con mejor embalaje</h3><p>Por qué el embalaje es el factor más ignorado en las tasas de devolución.</p><span>Leer →</span></div></a>
+    <a href="/blog/errores-embalaje-ecommerce" class="blog-card"><div class="blog-card-cat">Ecommerce</div><div class="blog-card-body"><h3>Errores comunes en embalaje ecommerce y cómo evitarlos</h3><p>Los 7 errores que más devoluciones generan en operaciones online.</p><span>Leer →</span></div></a>
+    <a href="/blog/como-ahorrar-en-envios" class="blog-card"><div class="blog-card-cat">Logística</div><div class="blog-card-body"><h3>Cómo ahorrar en envíos reduciendo el peso volumétrico</h3><p>La métrica que más impacta tu costo de flete y cómo optimizarla.</p><span>Leer →</span></div></a>
+    <a href="/blog/costos-ocultos-embalaje" class="blog-card"><div class="blog-card-cat">Estrategia</div><div class="blog-card-body"><h3>Costos ocultos del embalaje que afectan tu operación</h3><p>Los costos que no aparecen en la factura del material pero sí en tu margen.</p><span>Leer →</span></div></a>
+    <a href="/blog/empaque-eficiente" class="blog-card"><div class="blog-card-cat">Operaciones</div><div class="blog-card-body"><h3>Principios de empaque eficiente: protección máxima al menor costo</h3><p>Cómo diseñar un proceso de empaque que ahorre tiempo y materiales.</p><span>Leer →</span></div></a>
+    <a href="/blog/como-optimizar-cedis" class="blog-card"><div class="blog-card-cat">Logística</div><div class="blog-card-body"><h3>Cómo optimizar un CEDIS: claves para mejorar el flujo operativo</h3><p>Materiales, máquinas y procesos para centros de distribución eficientes.</p><span>Leer →</span></div></a>
+    <a href="/blog/automatizacion-logistica" class="blog-card"><div class="blog-card-cat">Innovación</div><div class="blog-card-body"><h3>Automatización logística: cómo la maquinaria de embalaje transforma tu operación</h3><p>El impacto real de producir materiales bajo demanda en sitio.</p><span>Leer →</span></div></a>
+  </div>
+
+  <div class="blog-section-title">Artículos — Materiales y tendencias</div>
+  <div class="blog-grid">
+    <a href="/blog/que-es-burbuja-inflable" class="blog-card"><div class="blog-card-cat">Materiales</div><div class="blog-card-body"><h3>¿Qué es la burbuja inflable y para qué sirve?</h3><p>Guía completa para entender este material y cuándo usarlo.</p><span>Leer →</span></div></a>
+    <a href="/blog/mejores-materiales-embalaje-2026" class="blog-card"><div class="blog-card-cat">Tendencias</div><div class="blog-card-body"><h3>Mejores materiales de embalaje en 2026</h3><p>Los materiales que están dominando la logística este año.</p><span>Leer →</span></div></a>
+    <a href="/blog/tendencias-embalaje" class="blog-card"><div class="blog-card-cat">Tendencias</div><div class="blog-card-body"><h3>Tendencias de embalaje en 2026: innovación, sostenibilidad y automatización</h3><p>Hacia dónde va el sector y cómo prepararte.</p><span>Leer →</span></div></a>
+    <a href="/blog/embalaje-industrial-vs-tradicional" class="blog-card"><div class="blog-card-cat">Estrategia</div><div class="blog-card-body"><h3>Embalaje industrial vs embalaje tradicional: diferencias clave</h3><p>Por qué la diferencia va más allá del material.</p><span>Leer →</span></div></a>
+    <a href="/embalaje-para-exportacion" class="blog-card"><div class="blog-card-cat">Exportación</div><div class="blog-card-body"><h3>Embalaje para exportación: qué necesitas para envíos internacionales</h3><p>NIMF-15, fleje PET y el sistema completo paso a paso.</p><span>Leer →</span></div></a>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="footer-content">
+    <div class="footer-col"><h4>HANKER <span class="footer-toggle">▼</span></h4><div class="footer-links"><p>Fabricantes directos de sistemas de embalaje inflable industrial en México.</p></div></div>
+    <div class="footer-col"><h4>Productos <span class="footer-toggle">▼</span></h4><div class="footer-links"><a href="/burbuja-inflable">Burbuja inflable</a><a href="/almohadilla-inflable">Almohadilla inflable</a><a href="/maquina-burbuja-inflable">Máquina infladora</a><a href="/poliestrech">Poliestrech</a><a href="/fleje">Fleje industrial</a></div></div>
+    <div class="footer-col"><h4>Soluciones <span class="footer-toggle">▼</span></h4><div class="footer-links"><a href="/embalaje-para-ecommerce">Para ecommerce</a><a href="/embalaje-para-logistica">Para logística</a><a href="/embalaje-para-manufactura">Para manufactura</a></div></div>
+    <div class="footer-col"><h4>Contacto <span class="footer-toggle">▼</span></h4><div class="footer-links"><p>Calz. de La Viga 1216-G<br>Iztapalapa, CDMX</p><p><a href="tel:+525586629357" style="color:#9ca3af;">55 8662-9357</a></p><p><a href="https://wa.me/5215586629357" style="color:#9ca3af;">WhatsApp</a></p></div></div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 Hanker México · Sistema de embalaje inflable industrial</p>
+    <div class="footer-bottom-links"><a href="/aviso-privacidad">Aviso de privacidad</a><a href="/terminos">Términos</a><a href="/contacto">Contacto</a></div>
+  </div>
+</footer>
+<a href="https://wa.me/5215586629357?text=Quiero%20cotizar%20sistema%20inflable" class="whatsapp-float" target="_blank">💬 WhatsApp</a>
+<script>
+const mt=document.getElementById('menuToggle');const mn=document.getElementById('mainNav');
+mt.addEventListener('click',()=>mn.classList.toggle('active'));
+document.querySelectorAll('.menu-item').forEach(item=>{const l=item.querySelector('a');if(l&&l.getAttribute('href')==='#'){l.addEventListener('click',(e)=>{if(window.innerWidth<=768){e.preventDefault();item.classList.toggle('active');}});}});
+function initFA(){document.querySelectorAll('.footer-col').forEach(col=>{const h=col.querySelector('h4');const c=col.querySelector('.footer-links');if(h&&c){h.addEventListener('click',()=>{if(window.innerWidth<=768){c.classList.toggle('active');const t=h.querySelector('.footer-toggle');if(t)t.classList.toggle('active');}});}});}
+initFA();
+</script>
+</body>
+</html>

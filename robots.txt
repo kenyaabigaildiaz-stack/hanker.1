@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Disallow: /cdn-cgi/
+
+Sitemap: https://ehanker.com/sitemap.xml

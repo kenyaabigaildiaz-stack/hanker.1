@@ -1,0 +1,58 @@
+# Netlify redirects — rutas sin .html
+
+# Páginas raíz
+/blog                           /blog.html                                      200
+/contacto                       /contacto.html                                  200
+/nosotros                       /nosotros.html                                  200
+/productos                      /productos.html                                 200
+/aviso-privacidad               /aviso-privacidad.html                          200
+/terminos                       /terminos.html                                  200
+/preguntas-frecuentes           /preguntas-frecuentes.html                      200
+/solicitar-muestra              /solicitar-muestra.html                         200
+/proveedores-embalaje-cdmx      /proveedores-embalaje-cdmx.html                 200
+/como-reducir-costos-de-embalaje /como-reducir-costos-de-embalaje.html          200
+
+# Productos
+/burbuja-inflable               /productos/burbuja-inflable.html                200
+/almohadilla-inflable           /productos/almohadilla.html                     200
+/maquina-burbuja-inflable       /productos/maquina-burbuja-inflable.html        200
+/poliestrech                    /productos/poliestrech.html                     200
+/fleje                          /productos/fleje.html                           200
+/cinta-adhesiva                 /productos/cinta.html                           200
+/carton                         /productos/carton.html                          200
+/rollo-burbuja                  /productos/rollo-burbuja.html                   200
+/air-pillows-mexico             /productos/air-pillows-mexico.html              200
+
+# Soluciones
+/embalaje-para-ecommerce        /soluciones/embalaje-para-ecommerce.html        200
+/embalaje-para-logistica        /soluciones/embalaje-para-logistica.html        200
+/embalaje-para-electronicos     /soluciones/embalaje-para-electronicos.html     200
+/embalaje-para-manufactura      /soluciones/embalaje-para-manufactura.html      200
+/embalaje-para-exportacion      /soluciones/embalaje-para-exportacion.html      200  
+/casos-exito                    /soluciones/casos-exito.html                    200
+
+# Guías y comparativas
+/guia-materiales-de-embalaje    /guias/guia-materiales-de-embalaje.html         200
+/burbuja-inflable-vs-poliburbuja /guias/burbuja-inflable-vs-poliburbuja.html    200
+/air-pillows-vs-foam            /guias/air-pillows-vs-foam.html                 200
+/air-pillows-vs-papel           /guias/air-pillows-vs-papel.html                200
+
+# Blog
+/blog/automatizacion-logistica              /blog/automatizacion-logistica.html             200
+/blog/como-ahorrar-en-envios                /blog/como-ahorrar-en-envios.html               200
+/blog/como-optimizar-cedis                  /blog/como-optimizar-cedis.html                 200
+/blog/como-proteger-productos-fragiles      /blog/como-proteger-productos-fragiles.html     200
+/blog/como-reducir-costos-logisticos-ecommerce /blog/como-reducir-costos-logisticos-ecommerce.html 200
+/blog/como-reducir-devoluciones             /blog/como-reducir-devoluciones.html            200
+/blog/costos-ocultos-embalaje               /blog/costos-ocultos-embalaje.html              200
+/blog/diferencia-burbuja-almohadilla        /blog/diferencia-burbuja-almohadilla.html       200
+/blog/embalaje-industrial-vs-tradicional    /blog/embalaje-industrial-vs-tradicional.html   200
+/blog/embalaje-para-exportacion             /blog/embalaje-para-exportacion.html            200
+/blog/empaque-eficiente                     /blog/empaque-eficiente.html                    200
+/blog/errores-embalaje-ecommerce            /blog/errores-embalaje-ecommerce.html           200
+/blog/mejores-materiales-embalaje-2026      /blog/mejores-materiales-embalaje-2026.html     200
+/blog/que-es-burbuja-inflable               /blog/que-es-burbuja-inflable.html              200
+/blog/tendencias-embalaje                   /blog/tendencias-embalaje.html                  200
+
+# Fallback
+/*  /index.html  200

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Páginas principales -->
+  <url><loc>https://ehanker.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://ehanker.com/productos</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://ehanker.com/blog</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ehanker.com/nosotros</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://ehanker.com/contacto</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://ehanker.com/solicitar-muestra</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ehanker.com/preguntas-frecuentes</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://ehanker.com/proveedores-embalaje-cdmx</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://ehanker.com/como-reducir-costos-de-embalaje</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- Productos -->
+  <url><loc>https://ehanker.com/burbuja-inflable</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://ehanker.com/almohadilla-inflable</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://ehanker.com/maquina-burbuja-inflable</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://ehanker.com/air-pillows-mexico</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ehanker.com/poliestrech</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ehanker.com/fleje</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ehanker.com/cinta-adhesiva</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ehanker.com/carton</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ehanker.com/rollo-burbuja</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Soluciones -->
+  <url><loc>https://ehanker.com/embalaje-para-ecommerce</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://ehanker.com/embalaje-para-logistica</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://ehanker.com/embalaje-para-manufactura</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://ehanker.com/embalaje-para-electronicos</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ehanker.com/embalaje-para-exportacion</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ehanker.com/casos-exito</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- Guías y comparativas -->
+  <url><loc>https://ehanker.com/guia-materiales-de-embalaje</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ehanker.com/burbuja-inflable-vs-poliburbuja</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ehanker.com/air-pillows-vs-foam</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://ehanker.com/air-pillows-vs-papel</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Blog -->
+  <url><loc>https://ehanker.com/blog/automatizacion-logistica</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://ehanker.com/blog/como-ahorrar-en-envios</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://ehanker.com/blog/como-optimizar-cedis</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://ehanker.com/blog/como-proteger-productos-fragiles</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://ehanker.com/blog/como-reducir-costos-logisticos-ecommerce</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://ehanker.com/blog/como-reducir-devoluciones</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://ehanker.com/blog/costos-ocultos-embalaje</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://ehanker.com/blog/diferencia-burbuja-almohadilla</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://ehanker.com/blog/embalaje-industrial-vs-tradicional</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://ehanker.com/blog/embalaje-para-exportacion</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://ehanker.com/blog/empaque-eficiente</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://ehanker.com/blog/errores-embalaje-ecommerce</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://ehanker.com/blog/mejores-materiales-embalaje-2026</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://ehanker.com/blog/que-es-burbuja-inflable</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://ehanker.com/blog/tendencias-embalaje</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Legal -->
+  <url><loc>https://ehanker.com/aviso-privacidad</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://ehanker.com/terminos</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+
+</urlset>
